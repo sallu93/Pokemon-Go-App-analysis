@@ -14,7 +14,9 @@ In this project, we try to understand the success of the game app Pokemon Go usi
 Data description:
 
 For the project, the app pages of Pokemon Go! were downloaded from Google Play Store and Apple App Store from July 21 2016 to October 31 2016:
+
 • https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=en
+
 • https://itunes.apple.com/us/app/pok%C3%A9mongo/id1094591345?mt=8
 
 The webpages were downloaded every ten minutes. This means that there were 144 (=24x6) HTML files for a given day and a given platform. There were a total of 103 date folders in a master folder called "data". Each date folder contained HTML files downloaded in the specified date. Each HTML file name was formatted as “HH_MM_pokemon_PLATFORM.html”, where HH is hour, MM is minute, and PLATFORM is either “android” or “ios”. Note that due to intermittent connection errors, some HTML files were not properly downloaded.
