@@ -1,6 +1,6 @@
 # Pokemon Go! App analysis using Web Analytics and Machine learning
 
-In this project, we try to understand the success of the game app Pokemon Go using the programming language Python!
+In this project, we tried to understand the success of the game app Pokemon Go, using the programming language Python!
 
 -> Web scraping using BeautifulSoup was done to extract useful values from the raw HTML files. 
 
