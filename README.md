@@ -25,9 +25,9 @@ The webpages were downloaded every ten minutes. This means that there were 144 (
 
 ## Other Info
 
-Other contributor: Tapan Patel
+- Other contributor: Tapan Patel
 
-Programming language used: Python
+- Programming language used: Python
 
 
 
