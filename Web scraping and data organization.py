@@ -58,12 +58,12 @@ for folders in glob.iglob('*'):
             elif 'ios' in filename:
                 print 'in ios'
                 soupI = BeautifulSoup(f , 'lxml' )
-                # getting ratings from android html files
+                # getting ratings from ios html files
                 Customer_Ratings = soupI.find_all('span' , {'class':'rating-count'})
                 ios_current_ratings= Customer_Ratings[0].get_text().split(" ")[0]
                 ios_all_ratings= Customer_Ratings[1].get_text().split(" ")[0]
                 
-                # getting file size from android html files
+                # getting file size from ios html files
                 File_Size = soupI.find_all('span' , {'class':'label'})
                 ios_file_size= File_Size[3].parent.get_text().split(" ")[1]
                 
