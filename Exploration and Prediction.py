@@ -24,7 +24,7 @@ from sklearn.linear_model import Ridge
 df = pd.read_csv('C:/Users/HP/Desktop/datanonzero.csv')
 
 
-# Describe part
+# getting descriptive statistics of dataframe
 
 print df.describe()
 
